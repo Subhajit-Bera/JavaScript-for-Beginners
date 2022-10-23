@@ -50,3 +50,18 @@ The set of types in the JavaScript language consists of primitive values and obj
 <br/>
 
 [Code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/1_Variables.html)
+
+
+## String In Java
+
+A string is a sequence of one or more characters that may consist of letters, numbers, or symbols. Strings in JavaScript are primitive data types and immutable, which means they are unchanging.
+
+### Defining a String:
+We can define a string in JS by using “ ” and ‘ ‘  both.
+When we need to use “ “  inside a string we define the string using ‘ ‘ and vice versa.
+
+
+### String Template Literals :
+
+
+## String Functions
