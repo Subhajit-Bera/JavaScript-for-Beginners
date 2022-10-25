@@ -50,3 +50,49 @@ The set of types in the JavaScript language consists of primitive values and obj
 <br/>
 
 [Code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/1_Variables.html)
+
+
+## String In Java
+
+A string is a sequence of one or more characters that may consist of letters, numbers, or symbols. Strings in JavaScript are primitive data types and immutable, which means they are unchanging.
+
+#### Defining a String:
+We can define a string in JS by using “ ” and ‘ ‘  both.
+When we need to use “ “  inside a string we define the string using ‘ ‘ and vice versa.
+
+
+#### String Template Literals :
+
+
+## String Functions
+
+#### 1.Length function :
+Length is an ECMAScript(ES1) feature.
+Used to return the length of an object.
+
+#### 2.indexOf(“”) and lastIndexOf(“”) :
+
+
+#### 3.slice(start index,end index):  perform slicing from starting index to end-1 index.
+
+#### 4.substring(start index,end index): works the same as slice.
+
+ONLY DIFFERENCE BETWEEN slice AND substring IS: slice TAKES NEGATIVE VALUE ,WHERE substring DOESN’T ALLOW NEGATIVE VALUE. 
+
+#### 5.substr(start index,end index) : get the substring from starting to ending index (including ending index)
+
+#### 6.replace:
+
+
+#### 7.toUpperCase() & toLowerCase()
+
+#### 8.charAt() &  charAt()
+
+#### 9.concat(“new string”):
+
+#### 10.trim()
+
+#### 11.Another way to access character from a string: 
+
+
+[Code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/2_StringAndStringMethods.html)
