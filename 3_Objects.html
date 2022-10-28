@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    <p>This is about objects in Java Script</p>
+    <script>
+        //Creating Objects
+        let student={
+            name:"Subhajit Bera",
+            age:20,
+            salary:0,
+            subject: "Java Script"
+        };
+
+        console.log(student);
+
+        //Accessing values in object
+        console.log(student.name);
+
+        //Another way of accessing values in object
+        console.log(student['name']);
+
+        let student2={
+            name:"Subhajit Bera",
+            age:20,
+            salary:0,
+            subject: "Java Script",
+            "subject 2": "Objects in JS" 
+        };
+
+
+        //Accessing the value of a key with multiple words.
+        console.log(student2['subject 2']);
+        //op: Objects inn JS
+
+
+        //Error
+        // console.log(student2.subject 2);
+        // Uncaught SyntaxError: missing ) after argument list
+
+    </script>
+</body>
+</html>
