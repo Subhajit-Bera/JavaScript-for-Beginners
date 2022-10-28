@@ -100,7 +100,10 @@ ONLY DIFFERENCE BETWEEN slice AND substring IS: slice TAKES NEGATIVE VALUE ,WHER
 ## var vs let vs const
 
 **var**: Scope of var is by default global.Doesn’t give any error if we declare a variable multiple times (same name). Which may lead to a problem in a program.
+But if we declare the var inside any function, then its scope will remain under that function. 
 
-**let** : We can’t declare a variable multiple times using let.It is preferred to use let upon var.
+**let** :  We can’t declare a variable multiple times using let.If we declare the var inside any function, then its scope will remain under that function.It is preferred to use let upon var.
 
 **const** : Value can’t change once declared.
+
+## if-else & switch
