@@ -96,3 +96,11 @@ ONLY DIFFERENCE BETWEEN slice AND substring IS: slice TAKES NEGATIVE VALUE ,WHER
 
 
 [Code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/2_StringAndStringMethods.html)
+
+## var vs let vs const
+
+**var**: Scope of var is by default global.Doesn’t give any error if we declare a variable multiple times (same name). Which may lead to a problem in a program.
+
+**let** : We can’t declare a variable multiple times using let.It is preferred to use let upon var.
+
+**const** : Value can’t change once declared.
