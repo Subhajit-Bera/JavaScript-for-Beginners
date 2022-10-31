@@ -115,3 +115,32 @@ But if we declare the var inside any function, then its scope will remain under 
 **const** : Value can’t change once declared.
 
 ## if-else & switch
+
+ 
+ 
+ ## Objects In JavaScript 
+ The object class represents one of JavaScript’s data types. It is used to store data in the form of key and value pairs.
+ 
+ ![15](https://user-images.githubusercontent.com/103336107/199081221-6c3bae7d-be66-4ca4-b2fe-136d32644626.png)
+
+ In this above example we create object student manually.
+ 
+ #### Accessing values of an Object:
+ 
+ ![16](https://user-images.githubusercontent.com/103336107/199081714-977d90c8-55f6-4abb-ae22-95a85b95e5e6.png)
+
+ **If we want to create a key using more than one word(using space inside a name) then we need to put the key name  inside a double quotation “ ”. Otherwise it will give an error.**
+ 
+ ![17](https://user-images.githubusercontent.com/103336107/199082124-bda576dc-44b3-484d-b9dd-672fd9404ea5.png)
+ 
+ **If we want to access the value of “student 2” then we have to use the 2nd method of accessing otherwise it will give syntax errors.**
+ 
+![18](https://user-images.githubusercontent.com/103336107/199082382-1077bb5f-fcad-4f1a-be8e-c973d9532cf7.png)
+ 
+ ## Array In JavaScript 
+ Array is a special type of object.
+In JavaScript arrays can contain various types of data together.
+#### Defining An Array :
+![19](https://user-images.githubusercontent.com/103336107/199082698-6dfc40fd-3934-4813-ab39-9c1419e16444.png)
+
+ 
