@@ -89,15 +89,18 @@ ONLY DIFFERENCE BETWEEN slice AND substring IS: slice TAKES NEGATIVE VALUE ,WHER
 #### 6.replace:
  ![8](https://user-images.githubusercontent.com/103336107/198846239-687c775a-ff32-41d2-b4f2-3e292f19002e.png)
 #### 7.toUpperCase() & toLowerCase()
+ ![10](https://user-images.githubusercontent.com/103336107/199079194-5997a4db-52c7-411b-8b61-ec6ab7860b3b.png)
  
-
 #### 8.charAt() &  charAt()
-
+![11](https://user-images.githubusercontent.com/103336107/199079428-7f31241c-6b29-4d49-8d7b-100e2cd6caea.png)
 #### 9.concat(“new string”):
+![12](https://user-images.githubusercontent.com/103336107/199079673-e33776c9-0592-4dd0-9f52-d2ba79b06f37.png)
 
 #### 10.trim()
+![13](https://user-images.githubusercontent.com/103336107/199080066-a9a31075-1796-4fa4-a02e-b61c0f37cdd1.png)
 
 #### 11.Another way to access character from a string: 
+![14](https://user-images.githubusercontent.com/103336107/199080292-c1a1ff7c-9180-42cd-ae8e-39c9ea1d4ecc.png)
 
 
 [Code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/2_StringAndStringMethods.html)
