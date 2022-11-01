@@ -114,9 +114,22 @@ But if we declare the var inside any function, then its scope will remain under 
 
 **const** : Value can’t change once declared.
 
-## if-else & switch
-
+## Conditional Statements
+Conditional statements are used to perform different actions based on different conditions.
  
+**In JavaScript we have the following conditional statements:**
+
+* Use **if** to specify a block of code to be executed, if a specified condition is true.
+* Use **else** to specify a block of code to be executed, if the same condition is false
+* Use **else if** to specify a new condition to test, if the first condition is false
+* Use **switch** to specify many alternative blocks of code to be executed
+ 
+### if-else statement:
+ ![20](https://user-images.githubusercontent.com/103336107/199290989-7fefabad-9fc0-4420-8e10-41cd2ae0ca62.png)
+
+ ### switch-case statement:
+  
+ ![21](https://user-images.githubusercontent.com/103336107/199292767-e6660753-91f5-48e4-bd9c-dfb2afcd1195.png)
  
  ## Objects In JavaScript 
  The object class represents one of JavaScript’s data types. It is used to store data in the form of key and value pairs.
@@ -137,10 +150,32 @@ But if we declare the var inside any function, then its scope will remain under 
  
 ![18](https://user-images.githubusercontent.com/103336107/199082382-1077bb5f-fcad-4f1a-be8e-c973d9532cf7.png)
  
+ [code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/3_Objects.html)
+ 
  ## Array In JavaScript 
  Array is a special type of object.
 In JavaScript arrays can contain various types of data together.
 #### Defining An Array :
 ![19](https://user-images.githubusercontent.com/103336107/199082698-6dfc40fd-3934-4813-ab39-9c1419e16444.png)
 
+ #### Creating array using new keyword:
  
+ ![22](https://user-images.githubusercontent.com/103336107/199294512-a2e879b6-dd0a-4ef8-9370-87c6a9674e14.png)
+
+ #### Creating An Empty Array of Specific number of Blocks(Array of Undefined elements):
+ 
+ ![23](https://user-images.githubusercontent.com/103336107/199294734-81694de1-546c-43fa-89d7-6762f1073731.png)
+ 
+ #### Length of An Array:
+ ![24](https://user-images.githubusercontent.com/103336107/199294987-89387f8d-bb01-48dd-96ec-ea96fbf0acbf.png)
+
+ #### Accessing Array Elements:
+![25](https://user-images.githubusercontent.com/103336107/199295941-f8337514-f2c7-47c4-8d10-c07b99baf966.png)
+
+ #### Add An Element In the End of Array:
+ ![26](https://user-images.githubusercontent.com/103336107/199296043-6ecdabc6-23a8-4b6b-b455-b67e67b80595.png)
+
+ #### Sort An Array:
+ ![27](https://user-images.githubusercontent.com/103336107/199296168-d4811ad1-f773-4a79-926b-bc12455fad76.png)
+
+[code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/4_ArrayAndObjects.html)
