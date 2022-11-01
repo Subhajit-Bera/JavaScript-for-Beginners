@@ -59,40 +59,48 @@ A string is a sequence of one or more characters that may consist of letters, nu
 #### Defining a String:
 We can define a string in JS by using “ ” and ‘ ‘  both.
 When we need to use “ “  inside a string we define the string using ‘ ‘ and vice versa.
-
+ ![1](https://user-images.githubusercontent.com/103336107/198845764-343fa5fb-dcb3-4e4a-b243-449cbed3ee3f.png)
 
 #### String Template Literals :
-
+![2](https://user-images.githubusercontent.com/103336107/198845785-3679d45a-f460-4a47-9e55-d1eb3d328cfe.png)
 
 ## String Functions
 
 #### 1.Length function :
 Length is an ECMAScript(ES1) feature.
 Used to return the length of an object.
+ 
+ ![3](https://user-images.githubusercontent.com/103336107/198845861-05dda06e-4df9-4f14-bf79-cc95c2c97fdb.png)
 
 #### 2.indexOf(“”) and lastIndexOf(“”) :
 
+![4](https://user-images.githubusercontent.com/103336107/198845931-e81a706b-ef40-450e-96f0-63ff3df2d216.png)
 
 #### 3.slice(start index,end index):  perform slicing from starting index to end-1 index.
+ ![5](https://user-images.githubusercontent.com/103336107/198846005-3bca2586-2dff-4e54-a940-5b2649595c51.png)
 
 #### 4.substring(start index,end index): works the same as slice.
-
+ ![6](https://user-images.githubusercontent.com/103336107/198846092-5b0b4758-ea2c-4443-ab6c-b05b614ef8aa.png)
 ONLY DIFFERENCE BETWEEN slice AND substring IS: slice TAKES NEGATIVE VALUE ,WHERE substring DOESN’T ALLOW NEGATIVE VALUE. 
 
 #### 5.substr(start index,end index) : get the substring from starting to ending index (including ending index)
-
+ ![7](https://user-images.githubusercontent.com/103336107/198846156-fea0b4f2-49b2-44c0-b948-5a3134fffdfe.png)
+ 
 #### 6.replace:
-
-
+ ![8](https://user-images.githubusercontent.com/103336107/198846239-687c775a-ff32-41d2-b4f2-3e292f19002e.png)
 #### 7.toUpperCase() & toLowerCase()
-
+ ![10](https://user-images.githubusercontent.com/103336107/199079194-5997a4db-52c7-411b-8b61-ec6ab7860b3b.png)
+ 
 #### 8.charAt() &  charAt()
-
+![11](https://user-images.githubusercontent.com/103336107/199079428-7f31241c-6b29-4d49-8d7b-100e2cd6caea.png)
 #### 9.concat(“new string”):
+![12](https://user-images.githubusercontent.com/103336107/199079673-e33776c9-0592-4dd0-9f52-d2ba79b06f37.png)
 
 #### 10.trim()
+![13](https://user-images.githubusercontent.com/103336107/199080066-a9a31075-1796-4fa4-a02e-b61c0f37cdd1.png)
 
 #### 11.Another way to access character from a string: 
+![14](https://user-images.githubusercontent.com/103336107/199080292-c1a1ff7c-9180-42cd-ae8e-39c9ea1d4ecc.png)
 
 
 [Code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/2_StringAndStringMethods.html)
@@ -100,7 +108,39 @@ ONLY DIFFERENCE BETWEEN slice AND substring IS: slice TAKES NEGATIVE VALUE ,WHER
 ## var vs let vs const
 
 **var**: Scope of var is by default global.Doesn’t give any error if we declare a variable multiple times (same name). Which may lead to a problem in a program.
+But if we declare the var inside any function, then its scope will remain under that function. 
 
-**let** : We can’t declare a variable multiple times using let.It is preferred to use let upon var.
+**let** :  We can’t declare a variable multiple times using let.If we declare the var inside any function, then its scope will remain under that function.It is preferred to use let upon var.
 
 **const** : Value can’t change once declared.
+
+## if-else & switch
+
+ 
+ 
+ ## Objects In JavaScript 
+ The object class represents one of JavaScript’s data types. It is used to store data in the form of key and value pairs.
+ 
+ ![15](https://user-images.githubusercontent.com/103336107/199081221-6c3bae7d-be66-4ca4-b2fe-136d32644626.png)
+
+ In this above example we create object student manually.
+ 
+ #### Accessing values of an Object:
+ 
+ ![16](https://user-images.githubusercontent.com/103336107/199081714-977d90c8-55f6-4abb-ae22-95a85b95e5e6.png)
+
+ **If we want to create a key using more than one word(using space inside a name) then we need to put the key name  inside a double quotation “ ”. Otherwise it will give an error.**
+ 
+ ![17](https://user-images.githubusercontent.com/103336107/199082124-bda576dc-44b3-484d-b9dd-672fd9404ea5.png)
+ 
+ **If we want to access the value of “student 2” then we have to use the 2nd method of accessing otherwise it will give syntax errors.**
+ 
+![18](https://user-images.githubusercontent.com/103336107/199082382-1077bb5f-fcad-4f1a-be8e-c973d9532cf7.png)
+ 
+ ## Array In JavaScript 
+ Array is a special type of object.
+In JavaScript arrays can contain various types of data together.
+#### Defining An Array :
+![19](https://user-images.githubusercontent.com/103336107/199082698-6dfc40fd-3934-4813-ab39-9c1419e16444.png)
+
+ 
