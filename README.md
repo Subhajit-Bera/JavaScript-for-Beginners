@@ -174,6 +174,10 @@ In JavaScript arrays can contain various types of data together.
 
  #### Add An Element In the End of Array:
  ![26](https://user-images.githubusercontent.com/103336107/199296043-6ecdabc6-23a8-4b6b-b455-b67e67b80595.png)
+ 
+ 
+ 
+ 
 
  #### Sort An Array:
  ![27](https://user-images.githubusercontent.com/103336107/199296168-d4811ad1-f773-4a79-926b-bc12455fad76.png)
@@ -188,7 +192,27 @@ A JavaScript function is executed when "something" invokes it (calls it).
 * Function names can contain letters, digits, underscores, and dollar signs (same rules as variables).
 * The parentheses may include parameter names separated by commas:(parameter1, parameter2, ...)
 * The code to be executed, by the function, is placed inside curly brackets: {}
-#### Function Syntax
+#### Function Syntax :
 ![28](https://user-images.githubusercontent.com/103336107/199491703-da0887c8-3331-4ad8-9dab-07bcb55f89aa.png)
 
+#### Creating a Function:
+![29](https://user-images.githubusercontent.com/103336107/199536778-cd54e6d8-be5d-47ad-9d9a-adda703fb1e8.png)
 
+**This function would get executed when someone calls or invokes it.**
+
+#### Calling the Function:
+![30](https://user-images.githubusercontent.com/103336107/199537222-06db9ece-5f9c-4024-9f81-d06507f637a0.png)
+
+Function bill doesn’t return anything.
+
+#### Lets see a function which returns some value :
+![31](https://user-images.githubusercontent.com/103336107/199537917-8724b8db-0750-4596-b13c-79ec12371a99.png)
+
+#### Default Parameters:
+Default function parameters allow named parameters to be initialized with default values if no value or undefined is passed.
+![32](https://user-images.githubusercontent.com/103336107/199538541-70b5f21c-0dc3-406b-9bf1-1a68bca7000a.png)
+
+**If we do not pass the value of y, in that case the default value of parameter y will be taken.**
+![33](https://user-images.githubusercontent.com/103336107/199538919-f48bcc86-e240-4c94-b94f-b8fa52aeff77.png)
+
+[code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/5_Functions.js)
