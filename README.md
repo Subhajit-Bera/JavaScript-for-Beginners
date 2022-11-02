@@ -179,3 +179,16 @@ In JavaScript arrays can contain various types of data together.
  ![27](https://user-images.githubusercontent.com/103336107/199296168-d4811ad1-f773-4a79-926b-bc12455fad76.png)
 
 [code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/4_ArrayAndObjects.html)
+
+## Functions in Java Script
+A JavaScript function is a block of code designed to perform a particular task.
+A JavaScript function is executed when "something" invokes it (calls it).
+
+* A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().
+* Function names can contain letters, digits, underscores, and dollar signs (same rules as variables).
+* The parentheses may include parameter names separated by commas:(parameter1, parameter2, ...)
+* The code to be executed, by the function, is placed inside curly brackets: {}
+#### Function Syntax
+![28](https://user-images.githubusercontent.com/103336107/199491703-da0887c8-3331-4ad8-9dab-07bcb55f89aa.png)
+
+
