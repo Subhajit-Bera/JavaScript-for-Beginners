@@ -81,6 +81,7 @@ Used to return the length of an object.
 
 #### 4.substring(start index,end index): works the same as slice.
  ![6](https://user-images.githubusercontent.com/103336107/198846092-5b0b4758-ea2c-4443-ab6c-b05b614ef8aa.png)
+ 
 ONLY DIFFERENCE BETWEEN slice AND substring IS: slice TAKES NEGATIVE VALUE ,WHERE substring DOESN’T ALLOW NEGATIVE VALUE. 
 
 #### 5.substr(start index,end index) : get the substring from starting to ending index (including ending index)
