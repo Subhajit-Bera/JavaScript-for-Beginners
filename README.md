@@ -217,3 +217,32 @@ Default function parameters allow named parameters to be initialized with defaul
 ![33](https://user-images.githubusercontent.com/103336107/199538919-f48bcc86-e240-4c94-b94f-b8fa52aeff77.png)
 
 [code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/5_Functions.js)
+
+
+## Alert, Prompt, Confirm 
+
+### alert() : 
+* The alert() method displays an alert box with a specified message and an OK button.
+* It is often used to make sure information comes through to the user. 
+* The alert box takes the focus away from the current window and forces the browser and forces the browser to read the message. 
+* Do not overuse this method, as it prevents the user from accessing other parts of the page until the box is closed. 
+* alert() doesn’t return anything.
+
+#### Syntax:
+![34](https://user-images.githubusercontent.com/103336107/199799147-7641e347-9c4b-4951-a13a-19175e9e49b5.png)
+
+#### Output:
+
+### prompt():
+* The prompt() method displays a dialog box that prompts the user for input.
+* When a prompt box pops up, the user will have to click either "OK" or "Cancel" to proceed.
+* The prompt() method returns the input value if the user clicks "OK", otherwise it returns null.
+* Do not overuse this method. It prevents the user from accessing other parts of the page until the box is closed.
+
+#### Syntax:
+![35](https://user-images.githubusercontent.com/103336107/199799850-dcf0c205-fca0-471a-a33b-c546870731eb.png)
+
+
+#### Output:
+
+
