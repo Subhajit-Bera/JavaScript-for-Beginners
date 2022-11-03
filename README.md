@@ -81,6 +81,7 @@ Used to return the length of an object.
 
 #### 4.substring(start index,end index): works the same as slice.
  ![6](https://user-images.githubusercontent.com/103336107/198846092-5b0b4758-ea2c-4443-ab6c-b05b614ef8aa.png)
+ 
 ONLY DIFFERENCE BETWEEN slice AND substring IS: slice TAKES NEGATIVE VALUE ,WHERE substring DOESN’T ALLOW NEGATIVE VALUE. 
 
 #### 5.substr(start index,end index) : get the substring from starting to ending index (including ending index)
@@ -114,9 +115,22 @@ But if we declare the var inside any function, then its scope will remain under 
 
 **const** : Value can’t change once declared.
 
-## if-else & switch
-
+## Conditional Statements
+Conditional statements are used to perform different actions based on different conditions.
  
+**In JavaScript we have the following conditional statements:**
+
+* Use **if** to specify a block of code to be executed, if a specified condition is true.
+* Use **else** to specify a block of code to be executed, if the same condition is false
+* Use **else if** to specify a new condition to test, if the first condition is false
+* Use **switch** to specify many alternative blocks of code to be executed
+ 
+### if-else statement:
+ ![20](https://user-images.githubusercontent.com/103336107/199290989-7fefabad-9fc0-4420-8e10-41cd2ae0ca62.png)
+
+ ### switch-case statement:
+  
+ ![21](https://user-images.githubusercontent.com/103336107/199292767-e6660753-91f5-48e4-bd9c-dfb2afcd1195.png)
  
  ## Objects In JavaScript 
  The object class represents one of JavaScript’s data types. It is used to store data in the form of key and value pairs.
@@ -137,10 +151,98 @@ But if we declare the var inside any function, then its scope will remain under 
  
 ![18](https://user-images.githubusercontent.com/103336107/199082382-1077bb5f-fcad-4f1a-be8e-c973d9532cf7.png)
  
+ [code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/3_Objects.html)
+ 
  ## Array In JavaScript 
  Array is a special type of object.
 In JavaScript arrays can contain various types of data together.
 #### Defining An Array :
 ![19](https://user-images.githubusercontent.com/103336107/199082698-6dfc40fd-3934-4813-ab39-9c1419e16444.png)
 
+ #### Creating array using new keyword:
  
+ ![22](https://user-images.githubusercontent.com/103336107/199294512-a2e879b6-dd0a-4ef8-9370-87c6a9674e14.png)
+
+ #### Creating An Empty Array of Specific number of Blocks(Array of Undefined elements):
+ 
+ ![23](https://user-images.githubusercontent.com/103336107/199294734-81694de1-546c-43fa-89d7-6762f1073731.png)
+ 
+ #### Length of An Array:
+ ![24](https://user-images.githubusercontent.com/103336107/199294987-89387f8d-bb01-48dd-96ec-ea96fbf0acbf.png)
+
+ #### Accessing Array Elements:
+![25](https://user-images.githubusercontent.com/103336107/199295941-f8337514-f2c7-47c4-8d10-c07b99baf966.png)
+
+ #### Add An Element In the End of Array:
+ ![26](https://user-images.githubusercontent.com/103336107/199296043-6ecdabc6-23a8-4b6b-b455-b67e67b80595.png)
+ 
+ 
+ 
+ 
+
+ #### Sort An Array:
+ ![27](https://user-images.githubusercontent.com/103336107/199296168-d4811ad1-f773-4a79-926b-bc12455fad76.png)
+
+[code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/4_ArrayAndObjects.html)
+
+## Functions in Java Script
+A JavaScript function is a block of code designed to perform a particular task.
+A JavaScript function is executed when "something" invokes it (calls it).
+
+* A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().
+* Function names can contain letters, digits, underscores, and dollar signs (same rules as variables).
+* The parentheses may include parameter names separated by commas:(parameter1, parameter2, ...)
+* The code to be executed, by the function, is placed inside curly brackets: {}
+#### Function Syntax :
+![28](https://user-images.githubusercontent.com/103336107/199491703-da0887c8-3331-4ad8-9dab-07bcb55f89aa.png)
+
+#### Creating a Function:
+![29](https://user-images.githubusercontent.com/103336107/199536778-cd54e6d8-be5d-47ad-9d9a-adda703fb1e8.png)
+
+**This function would get executed when someone calls or invokes it.**
+
+#### Calling the Function:
+![30](https://user-images.githubusercontent.com/103336107/199537222-06db9ece-5f9c-4024-9f81-d06507f637a0.png)
+
+Function bill doesn’t return anything.
+
+#### Lets see a function which returns some value :
+![31](https://user-images.githubusercontent.com/103336107/199537917-8724b8db-0750-4596-b13c-79ec12371a99.png)
+
+#### Default Parameters:
+Default function parameters allow named parameters to be initialized with default values if no value or undefined is passed.
+![32](https://user-images.githubusercontent.com/103336107/199538541-70b5f21c-0dc3-406b-9bf1-1a68bca7000a.png)
+
+**If we do not pass the value of y, in that case the default value of parameter y will be taken.**
+![33](https://user-images.githubusercontent.com/103336107/199538919-f48bcc86-e240-4c94-b94f-b8fa52aeff77.png)
+
+[code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/5_Functions.js)
+
+
+## Alert, Prompt, Confirm 
+
+### alert() : 
+* The alert() method displays an alert box with a specified message and an OK button.
+* It is often used to make sure information comes through to the user. 
+* The alert box takes the focus away from the current window and forces the browser and forces the browser to read the message. 
+* Do not overuse this method, as it prevents the user from accessing other parts of the page until the box is closed. 
+* alert() doesn’t return anything.
+
+#### Syntax:
+![34](https://user-images.githubusercontent.com/103336107/199799147-7641e347-9c4b-4951-a13a-19175e9e49b5.png)
+
+#### Output:
+
+### prompt():
+* The prompt() method displays a dialog box that prompts the user for input.
+* When a prompt box pops up, the user will have to click either "OK" or "Cancel" to proceed.
+* The prompt() method returns the input value if the user clicks "OK", otherwise it returns null.
+* Do not overuse this method. It prevents the user from accessing other parts of the page until the box is closed.
+
+#### Syntax:
+![35](https://user-images.githubusercontent.com/103336107/199799850-dcf0c205-fca0-471a-a33b-c546870731eb.png)
+
+
+#### Output:
+
+
