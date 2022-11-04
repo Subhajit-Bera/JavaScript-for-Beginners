@@ -232,6 +232,7 @@ Default function parameters allow named parameters to be initialized with defaul
 ![34](https://user-images.githubusercontent.com/103336107/199799147-7641e347-9c4b-4951-a13a-19175e9e49b5.png)
 
 #### Output:
+![36](https://user-images.githubusercontent.com/103336107/200036551-7654a7c6-f20e-473d-9f2d-cebcd4b24ac5.png)
 
 ### prompt():
 * The prompt() method displays a dialog box that prompts the user for input.
@@ -242,7 +243,62 @@ Default function parameters allow named parameters to be initialized with defaul
 #### Syntax:
 ![35](https://user-images.githubusercontent.com/103336107/199799850-dcf0c205-fca0-471a-a33b-c546870731eb.png)
 
+#### Output:
+
+![37](https://user-images.githubusercontent.com/103336107/200036862-08622b01-1d75-4152-bef5-5d359225bac8.png)
+
+### prompt() with default argument:
+Here Guest is the default argument. 
+
+![38](https://user-images.githubusercontent.com/103336107/200037064-15eb78c7-4b46-4b9e-817a-d91f33c9d09a.png)
 
 #### Output:
+![40](https://user-images.githubusercontent.com/103336107/200037786-d49df33e-77f9-4095-a489-66b9ec40ba4e.png)
+
+Many browsers (i.e:Internet Explorer) do not allow  prompt() without default argument.
+In that case at least add “”  if you do not want any default value.
+
+![39](https://user-images.githubusercontent.com/103336107/200037500-ffb743b3-4103-44bc-9a57-d13db75a71d3.png)
+
+### confirm():
+* The confirm() method displays a dialog box with a message, an OK button, and a Cancel button.
+* A confirm box is often used if you want the user to verify or accept something.
+* A confirm box takes the focus away from the current window, and forces the user to read the message.
+* Do not overuse this method. It prevents the user from accessing other parts of the page until the box is closed.
+* The confirm() method returns true if the user clicked "OK", otherwise false.
+
+#### Syntax:
+![41](https://user-images.githubusercontent.com/103336107/200038382-8f68bb17-a31e-455f-a421-40b76f6af845.png)
+
+#### Output :
+![42](https://user-images.githubusercontent.com/103336107/200038608-bf059278-11fb-4bff-88bb-1d91949659bb.png)
+
+#### Example of using confirm() in code:
+
+![43](https://user-images.githubusercontent.com/103336107/200039438-f4b4285a-e31c-40f2-bcad-94fbdc2eeaa8.png)
+
+
+[code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/6_AlertPromptConfirm.html)
+
+
+## Loops
+Loops can execute a block of code a number of times.
+In order to run the same code over and over again, each time with a different value, loops  are more preferable.
+
+### For Loop:
+For loop ,loops through a block of code a number of times.
+
+#### Syntax:
+![44](https://user-images.githubusercontent.com/103336107/200039993-4c657cb3-20d0-4b17-889d-e2747d4d9cce.png)
+
+* Expression 1 is executed (one time) before the execution of the code block.
+* Expression 2 defines the condition for executing the code block.
+* Expression 3 is executed (every time) after the code block has been executed.
+
+#### Code:
+![45](https://user-images.githubusercontent.com/103336107/200040279-20ce5b79-2779-44df-b10a-f533eab07019.png)
+
+#### Output:
+![46](https://user-images.githubusercontent.com/103336107/200040460-6daa897e-86e8-4676-948c-5cca5c3bffb9.png)
 
 
