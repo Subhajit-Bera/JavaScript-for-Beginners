@@ -12,11 +12,27 @@
         // alert("Hello");
 
 
-        // here we take the name of the user as input and store it inside name.
-        let name=prompt("what is your name ?");
-        console.log(name);
 
+        //prompt():
+        // here we take the name of the user as input and store it inside name.
+        // let name=prompt("what is your name ?");
+        // console.log(name);
+
+        //prompt() with default argument:
+        let name2=prompt("What is your name?","Guest");
+        console.log(name2);
         
+
+        //confirm() :
+        let deletePost=confirm("Do you really want to delete this post ?");
+        console.log(deletePost);
+        
+        //Using deletePost in code
+        if(deletePost){
+            console.log("Your post has been deleted successfully");
+        }else{
+            console.log("Your post has not been deleted");
+        }
         
     </script>
 </body>
