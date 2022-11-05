@@ -285,7 +285,7 @@ In that case at least add “”  if you do not want any default value.
 Loops can execute a block of code a number of times.
 In order to run the same code over and over again, each time with a different value, loops  are more preferable.
 
-### For Loop:
+### for Loop:
 For loop ,loops through a block of code a number of times.
 
 #### Syntax:
@@ -300,5 +300,34 @@ For loop ,loops through a block of code a number of times.
 
 #### Output:
 ![46](https://user-images.githubusercontent.com/103336107/200040460-6daa897e-86e8-4676-948c-5cca5c3bffb9.png)
+
+### forEach() Loop: 
+The forEach() method calls a function for each element in an array.
+The forEach() method is not executed for empty elements.
+
+#### Syntax:
+![47](https://user-images.githubusercontent.com/103336107/200123105-c7097ce2-5d42-4456-8f4f-cf732a85709e.png)
+
+* function() :A function to run for each array element.
+* currentElement : The value of the current element. 
+
+#### Code:
+![48](https://user-images.githubusercontent.com/103336107/200123177-ce45a8b7-b122-4cd6-9f71-ff0d7390b192.png)
+
+#### Output:
+![49](https://user-images.githubusercontent.com/103336107/200123215-42bfb50b-7978-4a54-91c5-982fcfa4c6d1.png)
+
+#### Code 2:
+Defining function separately and then use that with forEach() loop:
+![50](https://user-images.githubusercontent.com/103336107/200123271-20b0cedc-ad4a-4a48-adb9-1931f85ba8fa.png)
+
+#### Output:
+![49](https://user-images.githubusercontent.com/103336107/200123283-7db3fa2a-ae4a-4d56-91be-b5799b251f1e.png)
+
+#### Function with multiple parameters in forEach loop:
+![51](https://user-images.githubusercontent.com/103336107/200123325-355af34e-e37e-4886-9ec9-256d49d58f59.png)
+
+#### Output:
+![52](https://user-images.githubusercontent.com/103336107/200123402-1161a451-268c-4f00-bed8-a90c8752f844.png)
 
 
