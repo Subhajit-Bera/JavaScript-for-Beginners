@@ -330,4 +330,17 @@ Defining function separately and then use that with forEach() loop:
 #### Output:
 ![52](https://user-images.githubusercontent.com/103336107/200123402-1161a451-268c-4f00-bed8-a90c8752f844.png)
 
+### for of Loop:
+The JavaScript for of statement loops through the values of an iterable object.
+It loops over iterable data structures such as Arrays, Strings, Maps, NodeLists and many more.
+
+#### Syntax:
+![53](https://user-images.githubusercontent.com/103336107/200188328-510ed5c8-03b8-430e-9bcf-17313df523a2.png)
+
+#### Code:
+![54](https://user-images.githubusercontent.com/103336107/200188343-c4adea1b-e428-44da-b81b-45546a8aa7ed.png)
+
+#### Output :
+![55](https://user-images.githubusercontent.com/103336107/200188361-340c847a-082d-4a9e-849a-1d82ddbabd7d.png)
+
 
