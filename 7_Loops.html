@@ -12,7 +12,7 @@
 
     <script>
 
-        
+
         let employees = ["Subha", "Richik", "Subham", "Aniket", "Rohit"];
 
         //For loop
@@ -34,12 +34,29 @@
 
         //function with multiple parameter in forEach loop:
         //Multiply each value of the array with 10
-        let numbers = [65, 44, 12, 4];
-        numbers.forEach(function myFunction(item,index,numbers){
-            numbers[index]=item*10;
-            console.log(numbers[index]);
-        });
+        // let numbers = [65, 44, 12, 4];
+        // numbers.forEach(function myFunction(item,index,numbers){
+        //     numbers[index]=item*10;
+        //     console.log(numbers[index]);
+        // });
 
+
+        //for of loop:
+        // for (emp of employees) {
+        //     console.log(`Name of the employee is ${emp}`);
+        // }
+
+
+        //for in loop:
+        let employee = {
+            name: "Subha",
+            salary: 0,
+            job: "Js Developer"
+        }
+
+        for (key in employee) {
+            console.log(`The ${key} of employee is ${employee[key]}`);
+        }
 
     </script>
 </body>
