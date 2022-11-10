@@ -343,4 +343,17 @@ It loops over iterable data structures such as Arrays, Strings, Maps, NodeLists 
 #### Output :
 ![55](https://user-images.githubusercontent.com/103336107/200188361-340c847a-082d-4a9e-849a-1d82ddbabd7d.png)
 
+### for in Loop:
+The JavaScript for in statement loops through the properties of an Object.
+
+#### Syntax:
+![56](https://user-images.githubusercontent.com/103336107/201171101-48bc2b06-1cdd-428a-88dd-ebbfd9456e5a.png)
+
+#### Code:
+![57](https://user-images.githubusercontent.com/103336107/201171333-debe120a-f41b-472d-aa0d-6bd46c54a0cf.png)
+
+#### Output:
+![58](https://user-images.githubusercontent.com/103336107/201171515-b1030c92-7ed8-4d63-b3b0-32f6b17f7d06.png)
+
+
 
