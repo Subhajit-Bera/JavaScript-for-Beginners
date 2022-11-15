@@ -380,4 +380,21 @@ do while loop at least run one time. That’s why its printing
 
 [code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/7_Loops.html)
 
+## DOM
+### What is DOM ?
+The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
+### Why is the DOM necessary?
+Until now our websites have been static 
+If we want our web site to be interactive, then we need to be able to change parts
+of the web site on the fly.So that means, when a user clicks on a button, we'll need to respond to that by changing the content or the appearance of our website.
+But once our web site is live on the Internet, we can't sit there and wait for the user to click on things on our web site and then update the HTML and CSS code, and then reload their web page.That's impossible.
+
+**Now this is the problem that the DOM or the Document Object Model solves.
+It basically catalogs the web page into individual objects that we can select and manipulate.**
+
+### How does DOM work?
+The task of converting an HTML file into the DOM is done by the browser when you load up the web page. And what it does is that it turns each of these elements and their associated data into a tree structure with a whole bunch of objects that you can select and manipulate.
+
+The tree model on the below is usually how the DOM is represented.
+
 
