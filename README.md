@@ -355,5 +355,46 @@ The JavaScript for in statement loops through the properties of an Object.
 #### Output:
 ![58](https://user-images.githubusercontent.com/103336107/201171515-b1030c92-7ed8-4d63-b3b0-32f6b17f7d06.png)
 
+### while Loop:
+The while loop loops through a block of code as long as a specified condition is true.
+
+#### Syntax:
+![59](https://user-images.githubusercontent.com/103336107/201662156-2b1b8a1e-1d49-494a-95ee-f653513740d5.png)
+
+#### Code:
+![61](https://user-images.githubusercontent.com/103336107/201663303-81efcdef-08ef-4b01-b514-69a0c4f1fe06.png)
+
+### do while Loop:
+The do while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
+
+#### Syntax:
+![62](https://user-images.githubusercontent.com/103336107/201663561-984cb99f-cbc4-4d12-8d84-909514f0926d.png)
+
+#### Code:
+![63](https://user-images.githubusercontent.com/103336107/201663709-5ea448ef-6126-46a9-ba2b-eff848ad917b.png)
+
+#### Output:
+do while loop at least run one time. That’s why its printing 
+“34 is less than 30 and we are inside do while loop” one time.
+![64](https://user-images.githubusercontent.com/103336107/201665554-c18c0a2a-9400-4c97-ac41-68f776c206ed.png)
+
+[code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/7_Loops.html)
+
+## DOM
+### What is DOM ?
+The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
+### Why is the DOM necessary?
+Until now our websites have been static 
+If we want our web site to be interactive, then we need to be able to change parts
+of the web site on the fly.So that means, when a user clicks on a button, we'll need to respond to that by changing the content or the appearance of our website.
+But once our web site is live on the Internet, we can't sit there and wait for the user to click on things on our web site and then update the HTML and CSS code, and then reload their web page.That's impossible.
+
+**Now this is the problem that the DOM or the Document Object Model solves.
+It basically catalogs the web page into individual objects that we can select and manipulate.**
+
+### How does DOM work?
+The task of converting an HTML file into the DOM is done by the browser when you load up the web page. And what it does is that it turns each of these elements and their associated data into a tree structure with a whole bunch of objects that you can select and manipulate.
+
+The tree model on the below is usually how the DOM is represented.
 
 
