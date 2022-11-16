@@ -380,6 +380,19 @@ do while loop at least run one time. That’s why its printing
 
 [code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/7_Loops.html)
 
+## Three ways to add JavaScript :
+**1.Inline Js:**
+
+![65](https://user-images.githubusercontent.com/103336107/202218823-9bc58d28-fcae-40e3-bba0-a0ed0e6e5fed.png)
+
+**2.Internal JS:**
+
+![66](https://user-images.githubusercontent.com/103336107/202219246-4144b769-0464-4db8-9b41-625ab4303881.png)
+
+**3.External JS:**
+
+![67](https://user-images.githubusercontent.com/103336107/202219683-6a4bc88a-4952-4f0e-afbb-b4ac040e6785.png)
+
 ## DOM
 ### What is DOM ?
 The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
