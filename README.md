@@ -393,7 +393,7 @@ do while loop at least run one time. That’s why its printing
 
 ![67](https://user-images.githubusercontent.com/103336107/202219683-6a4bc88a-4952-4f0e-afbb-b4ac040e6785.png)
 
-## DOM
+## DOM (**Document Object Model**)
 ### What is DOM ?
 The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
 ### Why is the DOM necessary?
