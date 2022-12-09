@@ -409,5 +409,8 @@ It basically catalogs the web page into individual objects that we can select an
 The task of converting an HTML file into the DOM is done by the browser when you load up the web page. And what it does is that it turns each of these elements and their associated data into a tree structure with a whole bunch of objects that you can select and manipulate.
 
 The tree model on the below is usually how the DOM is represented.
+..........
 
+## Window Object
+**The window object represents a window in browser.Window is the object of browser.It is not the object of javascript.An object of window is created automatically by the browser.The javascript objects are string, array, date etc.**
 
