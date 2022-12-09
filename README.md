@@ -413,4 +413,30 @@ The tree model on the below is usually how the DOM is represented.
 
 ## Window Object
 **The window object represents a window in browser.Window is the object of browser.It is not the object of javascript.An object of window is created automatically by the browser.The javascript objects are string, array, date etc.**
+### Methods of Window Object
+Some of the frequently used window object methods are :
+* alert() : Displays an alert box with a message and an OK button.
+* prompt() : Displays a dialog box to get input from the user.
+* confirm() : Displays a dialog box with a message and an OK and a Cancel button.
+* open() : Used to open a new window.
+* close() : Close the current window.
+* setTimeout() : Calls a function or evaluates an expression after a specified number of milliseconds.
+* clearTimeout() : Clears a timer set with setTimeout().
+* setInterval() : Calls a function or evaluates an expression at specified intervals of milliseconds.
+* clearInterval() : Clears a timer set with setInterval().</br>
+
+We have already seen about alert(),prompt() and confirm() in detail. Let's explore about other methods in detail :
+
+### setTimeout() : This method calls and run a function once after a specified number of milliseconds.
+#### Code:
+![68](https://user-images.githubusercontent.com/103336107/206757744-42c0347e-b9cf-419a-b1a7-55771425640e.png)
+
+#### Output: (After 5000 milliseconds)
+![69](https://user-images.githubusercontent.com/103336107/206757996-8e81c594-168f-4a75-a2b4-758c94f77cbb.png)
+
+#### setTimeout() with multiple argument:
+![70](https://user-images.githubusercontent.com/103336107/206759206-e34ed698-30f3-461f-a4ba-61fe40b3daee.png)
+
+#### Output: (After 5000 milliseconds)
+![71](https://user-images.githubusercontent.com/103336107/206759448-667c7559-e6a3-4dc2-85b7-dc08ced1570f.png)
 
