@@ -380,7 +380,20 @@ do while loop at least run one time. That’s why its printing
 
 [code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/7_Loops.html)
 
-## DOM
+## Three ways to add JavaScript :
+**1.Inline Js:**
+
+![65](https://user-images.githubusercontent.com/103336107/202218823-9bc58d28-fcae-40e3-bba0-a0ed0e6e5fed.png)
+
+**2.Internal JS:**
+
+![66](https://user-images.githubusercontent.com/103336107/202219246-4144b769-0464-4db8-9b41-625ab4303881.png)
+
+**3.External JS:**
+
+![67](https://user-images.githubusercontent.com/103336107/202219683-6a4bc88a-4952-4f0e-afbb-b4ac040e6785.png)
+
+## DOM (**Document Object Model**)
 ### What is DOM ?
 The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
 ### Why is the DOM necessary?
@@ -396,5 +409,34 @@ It basically catalogs the web page into individual objects that we can select an
 The task of converting an HTML file into the DOM is done by the browser when you load up the web page. And what it does is that it turns each of these elements and their associated data into a tree structure with a whole bunch of objects that you can select and manipulate.
 
 The tree model on the below is usually how the DOM is represented.
+..........
 
+## Window Object
+**The window object represents a window in browser.Window is the object of browser.It is not the object of javascript.An object of window is created automatically by the browser.The javascript objects are string, array, date etc.**
+### Methods of Window Object
+Some of the frequently used window object methods are :
+* alert() : Displays an alert box with a message and an OK button.
+* prompt() : Displays a dialog box to get input from the user.
+* confirm() : Displays a dialog box with a message and an OK and a Cancel button.
+* open() : Used to open a new window.
+* close() : Close the current window.
+* setTimeout() : Calls a function or evaluates an expression after a specified number of milliseconds.
+* clearTimeout() : Clears a timer set with setTimeout().
+* setInterval() : Calls a function or evaluates an expression at specified intervals of milliseconds.
+* clearInterval() : Clears a timer set with setInterval().</br>
+
+We have already seen about alert(),prompt() and confirm() in detail. Let's explore about other methods in detail :
+
+### setTimeout() : This method calls and run a function once after a specified number of milliseconds.
+#### Code:
+![68](https://user-images.githubusercontent.com/103336107/206757744-42c0347e-b9cf-419a-b1a7-55771425640e.png)
+
+#### Output: (After 5000 milliseconds)
+![69](https://user-images.githubusercontent.com/103336107/206757996-8e81c594-168f-4a75-a2b4-758c94f77cbb.png)
+
+#### setTimeout() with multiple argument:
+![70](https://user-images.githubusercontent.com/103336107/206759206-e34ed698-30f3-461f-a4ba-61fe40b3daee.png)
+
+#### Output: (After 5000 milliseconds)
+![71](https://user-images.githubusercontent.com/103336107/206759448-667c7559-e6a3-4dc2-85b7-dc08ced1570f.png)
 
