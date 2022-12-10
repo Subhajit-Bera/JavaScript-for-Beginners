@@ -434,9 +434,20 @@ We have already seen about alert(),prompt() and confirm() in detail. Let's explo
 #### Output: (After 5000 milliseconds)
 ![69](https://user-images.githubusercontent.com/103336107/206757996-8e81c594-168f-4a75-a2b4-758c94f77cbb.png)
 
-#### setTimeout() with multiple argument:
+#### We can pass multiple argument to the function and use it with setTimeout():
 ![70](https://user-images.githubusercontent.com/103336107/206759206-e34ed698-30f3-461f-a4ba-61fe40b3daee.png)
 
 #### Output: (After 5000 milliseconds)
 ![71](https://user-images.githubusercontent.com/103336107/206759448-667c7559-e6a3-4dc2-85b7-dc08ced1570f.png)
+
+### clearTimeout():This method clears a timer set with the setTimeout() method.</br>
+If a user visits our website and we want to ask a user to sign up after 10 seconds but the user already signed up before 10 seconds ,for this type of scenario we can use clearTimeout() to clear the timer set with the setTimeout() method.
+
+To clear a timeout, we have to the id returned from setTimeout():
+#### Code:
+![72](https://user-images.githubusercontent.com/103336107/206838087-c8f83194-725c-4989-a97c-24a035c84617.png)
+
+#### Output: It prints the id associated with setTimeout()
+![73](https://user-images.githubusercontent.com/103336107/206838103-1304e671-0f92-4d66-9938-3a4d0141c035.png)
+
 
