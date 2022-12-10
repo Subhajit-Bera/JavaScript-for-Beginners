@@ -9,12 +9,12 @@
 </head>
 
 <body>
-    <h3>Let's talk about methods of Window object</h3>
+    <h4>Let's talk about methods of Window object</h4>
     <script>
 
         //setTimeout():
         function fun1() {
-            console.log("Hey! what's up")
+            console.log("Hey! what's up");
         }
         // setTimeout(fun1, 5000);
 
@@ -27,11 +27,23 @@
 
         //clearTimeout() :
         function signUp(name){
-            console.log("Sign up to continue "+ name)
+            console.log("Sign up to continue "+ name);
         }
         timeOut = setTimeout(signUp, 5000,"Subha");
-        console.log(timeOut); //It prints the id associated with setTimeout()
-        clearTimeout(timeOut);
+        // console.log(timeOut); //It prints the id associated with setTimeout()
+        // clearTimeout(timeOut);
+
+
+        //setInterval():
+        function fun3(){
+            console.log("Warning!!!");
+        }
+        // setInterval(fun3, 5000);
+
+        //clearInterval() :
+        intervalId=setInterval(fun3, 5000);
+        // console.log(intervalId);
+        // clearInterval(intervalId);
 
 
     </script>
