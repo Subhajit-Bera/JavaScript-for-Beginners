@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtime Clock</title>
+</head>
+<body>
+    <h3 style="text-align: center;">Creating a realtime clock with the help of setInterval() method</h3>
+    <div style="text-align: center; color: blue;">
+        <h1>Time now is <span id="time"></span></h1>
+    </div>
+
+    <script>
+        //Creating realtime clock with the help of setInterval()
+        function clock(){
+            time =new Date();
+            document.getElementById("time").innerHTML=time;
+        }
+        setInterval(clock,1000); //In evey one second call setInterval() and update the time.
+    </script>
+</body>
+</html>
