@@ -428,6 +428,7 @@ Some of the frequently used window object methods are :
 We have already seen about alert(),prompt() and confirm() in detail. Let's explore about other methods in detail :
 
 ### setTimeout() : This method calls and run a function once after a specified number of milliseconds.
+#### Syntax: setTimeout(function name,time in ms);
 #### Code:
 ![68](https://user-images.githubusercontent.com/103336107/206757744-42c0347e-b9cf-419a-b1a7-55771425640e.png)
 
@@ -443,11 +444,42 @@ We have already seen about alert(),prompt() and confirm() in detail. Let's explo
 ### clearTimeout():This method clears a timer set with the setTimeout() method.</br>
 If a user visits our website and we want to ask a user to sign up after 10 seconds but the user already signed up before 10 seconds ,for this type of scenario we can use clearTimeout() to clear the timer set with the setTimeout() method.
 
-To clear a timeout, we have to the id returned from setTimeout():
+To clear a timeout, we use the id returned from setTimeout().Because of that function associated with setTimeout() method will not run.
+#### Syntax: clearTimeout(id returned by setTimeout());
 #### Code:
 ![72](https://user-images.githubusercontent.com/103336107/206838087-c8f83194-725c-4989-a97c-24a035c84617.png)
 
-#### Output: It prints the id associated with setTimeout()
+#### Output: It prints the id returned from setTimeout()
 ![73](https://user-images.githubusercontent.com/103336107/206838103-1304e671-0f92-4d66-9938-3a4d0141c035.png)
 
+### setInterval() : Calls a function or evaluates an expression at specified intervals of milliseconds.The setInterval() method continues calling the function until clearInterval() is called, or the window is closed.
+If we want to execute a function multiple times and at a specific interval of time then ,it is preferable to use setInterval() instead of setTimeout().
+#### Syntax: setInterval(function name,time in ms);
+#### Code:
+![74](https://user-images.githubusercontent.com/103336107/206849643-f1d71e9f-506b-4e1c-8851-5ed6b57bc9cd.png)
+#### Output: 
+![75](https://user-images.githubusercontent.com/103336107/206849830-f4e906c1-85ff-42ea-b3cf-57f79d78fd3c.png)
 
+fun3 runs 17 times and it will keep running until clearInterval() is called, or the window is closed.
+
+### clearInterval() : Clears a timer set with setInterval().
+To clear an interval, we use the id returned from setInterval() method.
+#### Syntax: clearInterval(id returned by setInterval());
+
+#### Code:
+![76](https://user-images.githubusercontent.com/103336107/206850825-b953b290-e8c0-4244-a010-763d793259f8.png)
+
+#### Output: It prints the id returned from setInterval()
+![77](https://user-images.githubusercontent.com/103336107/206850897-1507d8e8-63e5-41fb-85e1-ee7ce2596362.png)
+
+[code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/9_WindowObjectMethods.html)
+
+
+## Creating a basic Real Time Clock with setInterval() method:
+#### Code:
+![78](https://user-images.githubusercontent.com/103336107/206852170-6ea80896-6a11-4a47-9faf-8bcfc712b940.png)
+
+#### Bowser Window:
+![79](https://user-images.githubusercontent.com/103336107/206852182-8a47c80e-6169-4392-88a0-b28f7109617a.png)
+
+[code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/10_RealtimeClock.html)
