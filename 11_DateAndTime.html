@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Let's talk about date and time in JavaScript</h3>
+
+    <script>
+        let now=new Date();
+        console.log(now);
+
+        //new Date(date string)
+        //Method 1:
+        let newDate = new Date("2048-09-23");
+        console.log(newDate);
+        //Method 2:
+        let newDate2 = new Date("December 10, 2025 12:11:00");
+        console.log(newDate2);
+
+        // new Date(year,month,day,hours,minutes,seconds,ms)
+        let newDate3 = new Date(2039, 11, 14, 10, 33, 30, 0);
+        console.log(newDate3);
+        
+        //Get Date methods
+        //Year
+        let yr=newDate3.getFullYear();
+        console.log("The year is "+yr);
+
+        //Month
+        let month=newDate3.getMonth();
+        console.log("The month is "+month);
+
+        //Date
+        let dt=newDate3.getDate();
+        console.log("The date is "+dt);
+
+        //Hours
+        let hr=newDate3.getHours();
+        console.log("The hour is "+hr);
+
+        //Minutes
+        let min=newDate3.getMinutes();
+        console.log("The minute is "+min);
+
+        //Milliseconds
+        let mill=newDate3.getMilliseconds();
+        console.log("The milliseconds is "+mill);
+
+
+        //Set Date Methods:
+        let d = new Date();
+        d.setFullYear(2069); //Year
+        d.setMonth(11); //Month
+        d.setDate(15);  //Date
+        d.setHours(22); //Hours
+        d.setMinutes(30); //Minutes
+        d.setSeconds(30); //Seconds
+
+        console.log(d);
+
+    </script>
+</body>
+</html>
