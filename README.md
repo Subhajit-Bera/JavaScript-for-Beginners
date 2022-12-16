@@ -542,3 +542,21 @@ Set Date methods allow us to set date values of a Date Object i.e : years, month
 ![89](https://user-images.githubusercontent.com/103336107/207142435-3714db84-6d40-4998-8b13-26e237b348e9.png)
 
 [code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/11_DateAndTime.html)
+
+## Arrow Function in JavaScript
+An arrow function expression is a syntactically compact alternative to a regular function expression,although without its own bindings to this, arguments, super or new.target keywords. Arrow function expressions are ill-suited as methods, and they cannot be used as constructors.
+
+![90](https://user-images.githubusercontent.com/103336107/208190439-06d7600f-f2f0-46c1-bf4b-6532b718f67b.png)
+
+#### Output:
+![91](https://user-images.githubusercontent.com/103336107/208188391-be7de69f-243f-4e9d-a87b-c6ec2beb8c3a.png)
+
+* If the arrow function has one argument ,we don't have to put brackets.
+* If the function has only one statement, we can remove the brackets and the return keyword.
+
+![92](https://user-images.githubusercontent.com/103336107/208191771-9052c13c-d71d-487d-92e2-b4f2a4c09a7c.png)
+
+#### Output:
+![93](https://user-images.githubusercontent.com/103336107/208191786-abda1d07-2a99-43dc-a90f-c6cde2a3c501.png)
+
+
