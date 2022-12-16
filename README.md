@@ -483,3 +483,80 @@ To clear an interval, we use the id returned from setInterval() method.
 ![79](https://user-images.githubusercontent.com/103336107/206852182-8a47c80e-6169-4392-88a0-b28f7109617a.png)
 
 [code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/10_RealtimeClock.html)
+
+
+## Date and Time in JavaScript 
+Java Script has a built-in Date object.It stores the date, time and provides methods to get and set day, month, year, hour, minute and seconds.Date objects are static.
+
+###Creating Date Object:
+**Date objects are created with the new Date() constructor.**
+![80](https://user-images.githubusercontent.com/103336107/207137104-6ddbb9ea-0554-4da7-ac8c-4d01a6f5b3dd.png)
+**Creating a Date object  without arguments shows the current date and time.**
+#### Output :
+![81](https://user-images.githubusercontent.com/103336107/207137248-efa086da-39da-4838-bf95-5716432d4c9f.png)
+
+### Diffrent ways to create a new date object through passing arguments:
+* new Date(date string)
+* new Date(year,month)
+* new Date(year,month,day)
+* new Date(year,month,day,hours)
+* new Date(year,month,day,hours,minutes)
+* new Date(year,month,day,hours,minutes,seconds)
+* new Date(year,month,day,hours,minutes,seconds,ms)
+* new Date(milliseconds)</br>
+
+**JavaScript counts months from 0 to 11.</br>
+0: January</br>
+11: December**
+
+#### Create Date Objects with date string:
+![82](https://user-images.githubusercontent.com/103336107/207138283-f24f2dd4-6960-4fe6-a60a-5a6287b3507d.png)
+
+#### Output:
+![83](https://user-images.githubusercontent.com/103336107/207138318-36b5e3ad-d6b5-4733-b59b-3d22f8977726.png)
+
+#### Create Date object with year,month,day,hours,minutes,seconds,ms:
+![84](https://user-images.githubusercontent.com/103336107/207138501-3a97bf84-a1d1-4096-9248-cc1a8fea2001.png)
+
+#### Output:
+![85](https://user-images.githubusercontent.com/103336107/207138553-4ae38bd8-33cc-4c14-a031-f74ec6a11a10.png)
+
+### Get Date Methods in JavaScript
+From Date object,we can easily get the current date and time with the help of Get Date methods.
+
+#### Code:
+
+![86](https://user-images.githubusercontent.com/103336107/207140526-e947dd19-990b-4305-87bc-3d6bb62cafeb.png)
+
+
+
+#### Output:
+![87](https://user-images.githubusercontent.com/103336107/207140729-712bc419-6e46-4e59-b4a1-06b05230e8c7.png)
+
+### Set Date Methods in JavaScript
+Set Date methods allow us to set date values of a Date Object i.e : years, months, days, hours, minutes, seconds, milliseconds .
+#### Code:
+![88](https://user-images.githubusercontent.com/103336107/207142381-af04e2df-9b25-4d7c-9dd2-75cc9e970cd5.png)
+
+#### Output:
+![89](https://user-images.githubusercontent.com/103336107/207142435-3714db84-6d40-4998-8b13-26e237b348e9.png)
+
+[code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/11_DateAndTime.html)
+
+## Arrow Function in JavaScript
+An arrow function expression is a syntactically compact alternative to a regular function expression,although without its own bindings to this, arguments, super or new.target keywords. Arrow function expressions are ill-suited as methods, and they cannot be used as constructors.
+
+![90](https://user-images.githubusercontent.com/103336107/208190439-06d7600f-f2f0-46c1-bf4b-6532b718f67b.png)
+
+#### Output:
+![91](https://user-images.githubusercontent.com/103336107/208188391-be7de69f-243f-4e9d-a87b-c6ec2beb8c3a.png)
+
+* If the arrow function has one argument ,we don't have to put brackets.
+* If the function has only one statement, we can remove the brackets and the return keyword.
+
+![92](https://user-images.githubusercontent.com/103336107/208191771-9052c13c-d71d-487d-92e2-b4f2a4c09a7c.png)
+
+#### Output:
+![93](https://user-images.githubusercontent.com/103336107/208191786-abda1d07-2a99-43dc-a90f-c6cde2a3c501.png)
+
+
