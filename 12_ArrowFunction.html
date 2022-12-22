@@ -12,9 +12,9 @@
     </div>
 
     <script>
-        //Normal Function:
+        //Regular Function:
         function fun(){
-            console.log("This is normal function");
+            console.log("This is regular function");
         }
         fun();
 
@@ -25,10 +25,26 @@
 
         //Sum of 2 numbers using Arrow Function 
         let sum= (a,b) => a+b;
+        console.log(sum(2,10));
+
 
         //One argument and one statement
         let greet = x => console.log(x);
         greet('Hello');
+
+
+        //Arrow function as Expression
+        let age=10;
+        let drive=(age>18)? ()=>console.log("Can drive"): ()=>console.log("Can't drive");
+        drive();
+
+        //Arrow function with multiple line
+        let division=(x,y)=>{
+            let ans=x/y;
+            return ans;
+        }
+        console.log(division(4,2));
+
 
     </script>
 </body>
