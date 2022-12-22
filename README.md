@@ -551,6 +551,8 @@ An arrow function expression is a syntactically compact alternative to a regular
 #### Output:
 ![91](https://user-images.githubusercontent.com/103336107/208188391-be7de69f-243f-4e9d-a87b-c6ec2beb8c3a.png)
 
+
+#### Arrow Function with one argument and one statement :
 * If the arrow function has one argument ,we don't have to put brackets.
 * If the function has only one statement, we can remove the brackets and the return keyword.
 
@@ -558,5 +560,17 @@ An arrow function expression is a syntactically compact alternative to a regular
 
 #### Output:
 ![93](https://user-images.githubusercontent.com/103336107/208191786-abda1d07-2a99-43dc-a90f-c6cde2a3c501.png)
+
+#### Arrow function as Expression:
+![94](https://user-images.githubusercontent.com/103336107/209097538-769ccb34-4522-40ad-8f4e-db97b16a8d91.png)
+
+#### Output:
+![95](https://user-images.githubusercontent.com/103336107/209097571-dcd61735-b84e-4b1f-9767-9d86ac24b085.png)
+
+#### Arrow function with multiple line:
+![96](https://user-images.githubusercontent.com/103336107/209098014-4b146990-01a6-4b29-b3c3-71f075871a53.png)
+
+#### Output:
+![97](https://user-images.githubusercontent.com/103336107/209098231-392d15c4-73a7-4aed-93a2-0d172b954a3c.png)
 
 
