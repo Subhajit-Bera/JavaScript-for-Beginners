@@ -573,4 +573,7 @@ An arrow function expression is a syntactically compact alternative to a regular
 #### Output:
 ![97](https://user-images.githubusercontent.com/103336107/209098231-392d15c4-73a7-4aed-93a2-0d172b954a3c.png)
 
+### Lexical this in Arrow Function:
+Incase of a regular function , this keyword has its scope inside the function where it calls. Means it refers to the variable inside the function where it is called.
+But arrow function does not have its own this.Incase of arrow function this keyword always represents the object that defined the arrow function.
 
