@@ -117,6 +117,16 @@ But if we declare the var inside any function, then its scope will remain under 
 
 **const** : Value can’t change once declared.
 
+## Operators:
+
+### == vs === 
+**== only check values** <br/>
+**=== check values as well as data type** <br/>
+ex: <br/>
+if(12=='12') -> true       <br/> 
+if(12==='12') ->false   <br/>
+
+
 ## Conditional Statements
 Conditional statements are used to perform different actions based on different conditions.
  
