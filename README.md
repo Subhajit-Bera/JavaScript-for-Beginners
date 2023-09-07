@@ -86,7 +86,7 @@ Used to return the length of an object.
  
 ONLY DIFFERENCE BETWEEN slice AND substring IS: slice TAKES NEGATIVE VALUE ,WHERE substring DOESN’T ALLOW NEGATIVE VALUE. 
 
-#### 5.substr(start index,end index) : get the substring from starting to ending index (including ending index)
+#### 5.substr(start index,length/no of character needed) : get the substrig from starting index to no of character (including start index->total 6)
  ![7](https://user-images.githubusercontent.com/103336107/198846156-fea0b4f2-49b2-44c0-b948-5a3134fffdfe.png)
  
 #### 6.replace:
