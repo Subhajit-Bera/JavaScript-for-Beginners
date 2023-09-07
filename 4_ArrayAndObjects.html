@@ -34,8 +34,22 @@
         //Add an element in the end of an array
         arr1.push("This is pushed");
         console.log(arr1);
-        //Op:[2,4,"Boss","This is pushed",null]
+        //Op:[2,4,"Boss",null,"This is pushed"]
 
+        //Delete the last element from an array:
+        arr1.pop();
+        console.log(arr1);
+        //op:[2,4,"Boss",null]
+
+        //Delete first element of an array:
+        arr1.shift();
+        console.log(arr1);
+        //op:[4,"Boss",null]
+
+        //Add an element at the begining of an array:
+        arr1.unshift(55);
+        console.log(arr1);
+        //op:[55,4,"Boss",null]
 
         // Sort An Array:
         arr=arr.sort();

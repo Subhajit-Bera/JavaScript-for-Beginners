@@ -49,6 +49,8 @@ The set of types in the JavaScript language consists of primitive values and obj
 * Symbol type
 <br/>
 
+### typeof and type conversion is explaind in source code.
+
 [Code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/1_Variables.html)
 
 
@@ -84,7 +86,7 @@ Used to return the length of an object.
  
 ONLY DIFFERENCE BETWEEN slice AND substring IS: slice TAKES NEGATIVE VALUE ,WHERE substring DOESN’T ALLOW NEGATIVE VALUE. 
 
-#### 5.substr(start index,end index) : get the substring from starting to ending index (including ending index)
+#### 5.substr(start index,length/no of character needed) : get the substrig from starting index to no of character (including start index->total 6)
  ![7](https://user-images.githubusercontent.com/103336107/198846156-fea0b4f2-49b2-44c0-b948-5a3134fffdfe.png)
  
 #### 6.replace:
@@ -106,14 +108,18 @@ ONLY DIFFERENCE BETWEEN slice AND substring IS: slice TAKES NEGATIVE VALUE ,WHER
 
 [Code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/2_StringAndStringMethods.html)
 
-## var vs let vs const
 
-**var**: Scope of var is by default global.Doesn’t give any error if we declare a variable multiple times (same name). Which may lead to a problem in a program.
-But if we declare the var inside any function, then its scope will remain under that function. 
+## Operators:
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/e2306338-7101-4fcb-8c41-2e9d0bad2307)
 
-**let** :  We can’t declare a variable multiple times using let.If we declare the var inside any function, then its scope will remain under that function.It is preferred to use let upon var.
 
-**const** : Value can’t change once declared.
+### == vs === 
+**== only check values** <br/>
+**=== check values as well as data type** <br/>
+ex: <br/>
+if(12=='12') -> true       <br/> 
+if(12==='12') ->false   <br/>
+
 
 ## Conditional Statements
 Conditional statements are used to perform different actions based on different conditions.
@@ -152,6 +158,11 @@ Conditional statements are used to perform different actions based on different 
 ![18](https://user-images.githubusercontent.com/103336107/199082382-1077bb5f-fcad-4f1a-be8e-c973d9532cf7.png)
  
  [code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/3_Objects.html)
+
+#### Adding new data in object:
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/e22615dd-d07e-4615-a625-6ecb51fe6eb7)
+
+ 
  
  ## Array In JavaScript 
  Array is a special type of object.
@@ -177,8 +188,16 @@ In JavaScript arrays can contain various types of data together.
  ![26](https://user-images.githubusercontent.com/103336107/199296043-6ecdabc6-23a8-4b6b-b455-b67e67b80595.png)
  
  
- 
- 
+ #### Delete element from anywhere -> splice(start index, length)
+ ![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/f4716dee-6ebf-4765-873c-cff063854237)
+
+ ![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/24be34cc-14c1-4269-9c39-56fc8ba36cba)
+
+ #### slice(start index,end index) -> return a new array (start->end-1)
+ ![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/f5de97ac-4866-47a2-9a59-8239f22dae44)
+
+ #### includes
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/347e8fff-ede2-48a8-8a13-2ce86096bdb5)
 
  #### Sort An Array:
  ![27](https://user-images.githubusercontent.com/103336107/199296168-d4811ad1-f773-4a79-926b-bc12455fad76.png)
@@ -218,6 +237,39 @@ Default function parameters allow named parameters to be initialized with defaul
 
 [code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/5_Functions.js)
 
+#### Anonymous Function:
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/164fc7e6-43b2-40a4-bfd8-ed7ec8e70525)
+
+## Scoping
+### var vs let vs const
+**var**: Scope of var is by default global.Doesn’t give any error if we declare a variable multiple times (same name). Which may lead to a problem in a program.
+But if we declare the var inside any function, then its scope will remain under that function. 
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/96d674e6-87ff-434a-9fc6-c38ed504019f)
+
+
+**let** :  We can’t declare a variable multiple times using let(unless it is declare inside a block or function).If we declare it inside any function or block, then its scope will remain under that function or block.It is preferred to use let upon var.<br/>
+**1**
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/751a0c31-7cb3-4d47-8f75-78e6e7633c7d)
+
+**2**
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/9ccbe4d9-ad0e-48a9-a847-3cb4ab701a74)
+
+**3**
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/efcd8f34-8d6b-444d-ac8b-4c2f2bbccc82)
+
+**4**
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/a0286d01-f199-4b3d-ae93-30719aeb756d)
+
+**5**
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/a716c2cf-d72f-4d54-b275-cfad615137d4)
+
+
+**const** : Value can’t change once declared.<br/>
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/abf6366d-2705-4359-8c47-d887af2811ed)
+
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/3dc7917f-b85b-4ab5-89e2-1fc498eff435)
+
+
 
 ## Alert, Prompt, Confirm 
 
@@ -239,7 +291,8 @@ Default function parameters allow named parameters to be initialized with defaul
 * When a prompt box pops up, the user will have to click either "OK" or "Cancel" to proceed.
 * The prompt() method returns the input value if the user clicks "OK", otherwise it returns null.
 * Do not overuse this method. It prevents the user from accessing other parts of the page until the box is closed.
-
+* **propt() bt default value is String , if we want to take a number as input then we have to perform type converstion:**<br/>
+    ### let num=Number(prompt("Enter a number"));  
 #### Syntax:
 ![35](https://user-images.githubusercontent.com/103336107/199799850-dcf0c205-fca0-471a-a33b-c546870731eb.png)
 
@@ -409,6 +462,31 @@ It basically catalogs the web page into individual objects that we can select an
 The task of converting an HTML file into the DOM is done by the browser when you load up the web page. And what it does is that it turns each of these elements and their associated data into a tree structure with a whole bunch of objects that you can select and manipulate.
 
 The tree model on the below is usually how the DOM is represented.
+........<br/>
+
+
+
+
+**Accessing body using DOM**
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/2bcec991-69ca-421d-bb4d-f64e9206c8b8)
+
+**Accessing head using DOM**
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/24f072aa-88b9-498c-8bcf-a369801c9413)
+
+**Accessing whole html using DOM**
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/d4fa0069-0596-41dc-bf9f-b6b905b98549)
+
+**Here it showing text->which basically refers the space between body and it's first div element**
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/11b60ecb-c173-48fe-93a2-0c29c1b16a54)
+
+**Accessing first div present inside <body> using DOM**
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/90fea28d-c283-4413-9f32-8b0728205cdf)
+
+**Accessing element using id and class name**
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/02c736b2-3b8b-4f01-a0a0-b17654a84351)
+
+
+
 ..........
 
 ## Window Object
@@ -573,4 +651,7 @@ An arrow function expression is a syntactically compact alternative to a regular
 #### Output:
 ![97](https://user-images.githubusercontent.com/103336107/209098231-392d15c4-73a7-4aed-93a2-0d172b954a3c.png)
 
+### Lexical this in Arrow Function:
+Incase of a regular function , this keyword has its scope inside the function where it calls. Means it refers to the variable inside the function where it is called.
+But arrow function does not have its own this.Incase of arrow function this keyword always represents the object that defined the arrow function.
 
