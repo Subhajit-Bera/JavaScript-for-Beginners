@@ -251,7 +251,8 @@ Default function parameters allow named parameters to be initialized with defaul
 * When a prompt box pops up, the user will have to click either "OK" or "Cancel" to proceed.
 * The prompt() method returns the input value if the user clicks "OK", otherwise it returns null.
 * Do not overuse this method. It prevents the user from accessing other parts of the page until the box is closed.
-
+* **propt() bt default value is String , if we want to take a number as input then we have to perform type converstion:**<br/>
+    ### let num=Number(prompt("Enter a number"));  
 #### Syntax:
 ![35](https://user-images.githubusercontent.com/103336107/199799850-dcf0c205-fca0-471a-a33b-c546870731eb.png)
 
