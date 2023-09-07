@@ -462,6 +462,31 @@ It basically catalogs the web page into individual objects that we can select an
 The task of converting an HTML file into the DOM is done by the browser when you load up the web page. And what it does is that it turns each of these elements and their associated data into a tree structure with a whole bunch of objects that you can select and manipulate.
 
 The tree model on the below is usually how the DOM is represented.
+........<br/>
+
+
+
+
+**Accessing body using DOM**
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/2bcec991-69ca-421d-bb4d-f64e9206c8b8)
+
+**Accessing head using DOM**
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/24f072aa-88b9-498c-8bcf-a369801c9413)
+
+**Accessing whole html using DOM**
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/d4fa0069-0596-41dc-bf9f-b6b905b98549)
+
+**Here it showing text->which basically refers the space between body and it's first div element**
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/11b60ecb-c173-48fe-93a2-0c29c1b16a54)
+
+**Accessing first div present inside <body> using DOM**
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/90fea28d-c283-4413-9f32-8b0728205cdf)
+
+**Accessing element using id and class name**
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/02c736b2-3b8b-4f01-a0a0-b17654a84351)
+
+
+
 ..........
 
 ## Window Object
