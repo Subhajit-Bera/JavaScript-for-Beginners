@@ -49,6 +49,8 @@ The set of types in the JavaScript language consists of primitive values and obj
 * Symbol type
 <br/>
 
+### typeof and type conversion is explaind in source code.
+
 [Code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/1_Variables.html)
 
 
