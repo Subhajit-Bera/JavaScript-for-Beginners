@@ -16,18 +16,36 @@
     </div>
     <script>
         //Variables 
-        var a=2; //number
-        var b="Subhajit"; //string
-        var c='Bera';  //string
-        var x=3.44;  //number
-        var y=.22; //number
-        var z=true; //boolean
+        let a=2; //number
+        let b="Subhajit"; //string
+        let c='Bera';  //string
+        let d=`subh`; //string
+        let x=3.44;  //number
+        let y=.22; //number
+        let z=true; //boolean
         console.log(a);
         console.log(b);
         console.log(c);
         console.log(x);
         console.log(y);
         //For the output right click on the browser -> inspect ->console
+
+        //We can use typeof operator for checking the type of a data.
+        console.log(typeof a); //Number
+
+
+        //Type Conversion:
+        //Convert number to string:
+        a=String(a); //Now a is converted to string
+        //Convert String to Number
+        let e="454";
+        e=Number(e); //Now e is converted to Number
+
+        //we can use toString() to convert a number into string
+        let f=11;
+        f=f.toString();
+        
+        
     </script>
 </body>
 </html>
