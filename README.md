@@ -108,14 +108,6 @@ ONLY DIFFERENCE BETWEEN slice AND substring IS: slice TAKES NEGATIVE VALUE ,WHER
 
 [Code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/2_StringAndStringMethods.html)
 
-## var vs let vs const
-
-**var**: Scope of var is by default global.Doesn’t give any error if we declare a variable multiple times (same name). Which may lead to a problem in a program.
-But if we declare the var inside any function, then its scope will remain under that function. 
-
-**let** :  We can’t declare a variable multiple times using let.If we declare the var inside any function, then its scope will remain under that function.It is preferred to use let upon var.
-
-**const** : Value can’t change once declared.
 
 ## Operators:
 ![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/e2306338-7101-4fcb-8c41-2e9d0bad2307)
@@ -244,6 +236,39 @@ Default function parameters allow named parameters to be initialized with defaul
 ![33](https://user-images.githubusercontent.com/103336107/199538919-f48bcc86-e240-4c94-b94f-b8fa52aeff77.png)
 
 [code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/5_Functions.js)
+
+#### Anonymous Function:
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/164fc7e6-43b2-40a4-bfd8-ed7ec8e70525)
+
+## Scoping
+### var vs let vs const
+**var**: Scope of var is by default global.Doesn’t give any error if we declare a variable multiple times (same name). Which may lead to a problem in a program.
+But if we declare the var inside any function, then its scope will remain under that function. 
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/96d674e6-87ff-434a-9fc6-c38ed504019f)
+
+
+**let** :  We can’t declare a variable multiple times using let(unless it is declare inside a block or function).If we declare it inside any function or block, then its scope will remain under that function or block.It is preferred to use let upon var.<br/>
+**1**
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/751a0c31-7cb3-4d47-8f75-78e6e7633c7d)
+
+**2**
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/9ccbe4d9-ad0e-48a9-a847-3cb4ab701a74)
+
+**3**
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/efcd8f34-8d6b-444d-ac8b-4c2f2bbccc82)
+
+**4**
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/a0286d01-f199-4b3d-ae93-30719aeb756d)
+
+**5**
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/a716c2cf-d72f-4d54-b275-cfad615137d4)
+
+
+**const** : Value can’t change once declared.<br/>
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/abf6366d-2705-4359-8c47-d887af2811ed)
+
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/3dc7917f-b85b-4ab5-89e2-1fc498eff435)
+
 
 
 ## Alert, Prompt, Confirm 
