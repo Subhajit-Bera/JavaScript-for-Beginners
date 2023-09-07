@@ -166,6 +166,11 @@ Conditional statements are used to perform different actions based on different 
 ![18](https://user-images.githubusercontent.com/103336107/199082382-1077bb5f-fcad-4f1a-be8e-c973d9532cf7.png)
  
  [code reference](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/blob/main/3_Objects.html)
+
+#### Adding new data in object:
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/e22615dd-d07e-4615-a625-6ecb51fe6eb7)
+
+ 
  
  ## Array In JavaScript 
  Array is a special type of object.
