@@ -191,8 +191,16 @@ In JavaScript arrays can contain various types of data together.
  ![26](https://user-images.githubusercontent.com/103336107/199296043-6ecdabc6-23a8-4b6b-b455-b67e67b80595.png)
  
  
- 
- 
+ #### Delete element from anywhere -> splice(start index, length)
+ ![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/f4716dee-6ebf-4765-873c-cff063854237)
+
+ ![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/24be34cc-14c1-4269-9c39-56fc8ba36cba)
+
+ #### slice(start index,end index) -> return a new array (start->end-1)
+ ![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/f5de97ac-4866-47a2-9a59-8239f22dae44)
+
+ #### includes
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/347e8fff-ede2-48a8-8a13-2ce86096bdb5)
 
  #### Sort An Array:
  ![27](https://user-images.githubusercontent.com/103336107/199296168-d4811ad1-f773-4a79-926b-bc12455fad76.png)
