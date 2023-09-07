@@ -118,6 +118,8 @@ But if we declare the var inside any function, then its scope will remain under 
 **const** : Value can’t change once declared.
 
 ## Operators:
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/e2306338-7101-4fcb-8c41-2e9d0bad2307)
+
 
 ### == vs === 
 **== only check values** <br/>
