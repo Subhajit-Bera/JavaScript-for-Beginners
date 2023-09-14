@@ -461,9 +461,9 @@ It basically catalogs the web page into individual objects that we can select an
 ### How does DOM work?
 The task of converting an HTML file into the DOM is done by the browser when you load up the web page. And what it does is that it turns each of these elements and their associated data into a tree structure with a whole bunch of objects that you can select and manipulate.
 
-The tree model on the below is usually how the DOM is represented.
-........<br/>
+### The tree model on the below is usually how the DOM is represented.
 
+![image](https://github.com/Subhajit-Bera/JavaScript-for-Beginners/assets/103336107/8899dbce-5b32-4ee0-b07e-918fa7bead57)
 
 
 
